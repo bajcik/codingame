@@ -3,6 +3,7 @@ Few CodinGame.com puzzle solutions
 ==================================
 
 * minesweeper.rs https://www.codingame.com/ide/puzzle/minesweeper
+* unfolding-paper.rs https://www.codingame.com/ide/puzzle/unfolding-paper (little explained)
 * Staircases.c https://www.codingame.com/training/community/staircases
 * simple-cpu-emulation-1.c https://www.codingame.com/ide/puzzle/simple-cpu-emulation-1
 * Boggle.py https://www.codingame.com/training/community/boggle

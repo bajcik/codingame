@@ -1,0 +1,68 @@
+
+Spread          Vertical        Horizontal
+------          --------        ----------
+n=0             n=0             n=0
+abc             abc             aaa
+def             abc             bbb
+ghi             abc             ccc
+                                              
+n=1             n=1             n=1
+ihgghi 1        cbaabc 1        cccccc 1
+feddef          cbaabc          bbbbbb
+cbaabc          cbaabc          aaaaaa
+cbaabc 0        cbaabc 0        aaaaaa 0
+feddef          cbaabc          bbbbbb
+ihgghi          cbaabc          cccccc
+                                              
+n=2             n=2             n=2
+ihgghiihgghi 2  cbaabccbaabc 2  cccccccccccc 2
+feddeffeddef    cbaabccbaabc    bbbbbbbbbbbb
+cbaabccbaabc    cbaabccbaabc    aaaaaaaaaaaa
+cbaabccbaabc    cbaabccbaabc    aaaaaaaaaaaa 
+feddeffeddef    cbaabccbaabc    bbbbbbbbbbbb
+ihgghiihgghi    cbaabccbaabc    cccccccccccc
+ihgghiihgghi 1  cbaabccbaabc 1  cccccccccccc 1
+feddeffeddef    cbaabccbaabc    bbbbbbbbbbbb
+cbaabccbaabc    cbaabccbaabc    aaaaaaaaaaaa
+cbaabccbaabc 0  cbaabccbaabc 0  aaaaaaaaaaaa 0
+feddeffeddef    cbaabccbaabc    bbbbbbbbbbbb
+ihgghiihgghi    cbaabccbaabc    cccccccccccc     
+
+
+Separated:                             horizontal:                        
++-----------+-----------+-----------+  +------+
+| U(n)*U(n) | V(n)*U(n) | W(n)*U(n) |  | U(n) |
++-----------+-----------+-----------+  +------+
+| U(n)*V(n) | V(n)*V(n) | W(n)*V(n) |  | V(n) |
++-----------+-----------+-----------+  +------+
+| U(n)*W(n) | V(n)*W(n) | W(n)*W(n) |  | W(n) |
++-----------+-----------+-----------+  +------+
+
++-----------+-----------+-----------+ 
+| U(n)      | V(n)      | W(n)      | << vertical
++-----------+-----------+-----------+
+
+U(n) = 1         // n=0
+       2^(n-1)   // n>0
+
+V(n) = 2^n
+
+W(n) = 1         // n=0
+       2^(n-1)+1 // n>0
+
+
+(Hint: use search function for 'a', 'b', .. 'i'
+ with <highlight all> option enabled to see the patterns)
+
+
+
+
+What about this?
+
+#..#.
+#..#.
+##.##
+.#..#
+
+
+
