@@ -10,5 +10,5 @@ Few CodinGame.com puzzle solutions
 * chuck-norris.sh https://www.codingame.com/training/easy/chuck-norris
 * KGood.c https://www.codingame.com/training/community/kgood
 * mistery-sums.sh https://www.codingame.com/training/community/mystery-sums
-
+* the-river-i https://www.codingame.com/ide/puzzle/the-river-i- 
 
